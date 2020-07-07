@@ -20,10 +20,10 @@ inputArray = [];
 while(passwordLength<8 || passwordLength> 128){
   passwordLength = prompt("Please enter password length (between 8 and 128)")
 }
-let upperCase = confirm("Would you like upper case letters in your password?")
-let lowerCase = confirm("Would you like lower case letters in your password?")
-let passwordNumbers = confirm("Would you like numbers in your password?")
-let specialCharacterInput = confirm("Would you like special characters in your password?")
+let upperCase = confirm("Would you like uppercase letters in your password?");
+let lowerCase = confirm("Would you like lowercase letters in your password?");
+let passwordNumbers = confirm("Would you like numbers in your password?");
+let specialCharacterInput = confirm("Would you like special characters in your password?");
 
 if(upperCase){
   inputArray = inputArray.concat(upperCaseLetters)
